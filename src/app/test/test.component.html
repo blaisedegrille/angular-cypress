@@ -1,0 +1,32 @@
+<div class="container">
+  <mat-card>
+    <section>
+      <mat-grid-list cols="3" rowHeight="2:1">
+        <mat-grid-tile>
+          <mat-form-field appearance="fill">
+            <mat-label>Username</mat-label>
+            <input matInput class="username-input"/>
+          </mat-form-field>
+        </mat-grid-tile>
+
+        <mat-grid-tile>
+          <mat-form-field appearance="fill">
+            <mat-label>Gender</mat-label>
+            <mat-select class="gender-select">
+              <mat-option value="one">Male</mat-option>
+              <mat-option value="two">Female</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </mat-grid-tile>
+
+        <mat-grid-tile>
+          <mat-form-field appearance="fill">
+            <mat-label>Message</mat-label>
+            <textarea class="message-textarea" matInput></textarea>
+          </mat-form-field>
+        </mat-grid-tile>
+      </mat-grid-list>
+    </section>
+    <mat-divider></mat-divider>
+  </mat-card>
+</div>
